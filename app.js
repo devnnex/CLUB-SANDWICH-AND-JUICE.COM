@@ -269,7 +269,7 @@ const products = [
   title: 'Chicken Salad',
   price: 17900,
   desc: 'Pechuga a la plancha en cuadritos, champiñones, lechuga, tomate, cebolla, pepino, guacamole, vinagreta',
-  image: 'images/chickensalad.png',
+  image: 'images/chickenSalad.png',
   ingredients: ['Pechuga a la plancha en cuadritos', 'Champiñones', 'Lechuga', 'Tomate', 'Cebolla', 'Pepino', 'Guacamole', 'Vinagreta'],
   extras: [{ name: 'Jamón', price: 1200 }, { name: 'Queso', price: 1500 }, { name: 'Piña en almíbar', price: 1600 }, { name: 'Maíz', price: 2000 }, { name: 'Aguacate', price: 2000 }, { name: 'Jalapeños', price: 2500 }, { name: 'Pepinillos agridulces', price: 2500 }, { name: 'Tocineta', price: 2500 }, { name: 'Champiñones', price: 3000 }, { name: 'Salami', price: 3000 }, { name: 'Pepperoni', price: 3000 }, { name: 'Pollo desmechado', price: 3500 }, { name: 'Carne desmechada', price: 4500 }, { name: 'Pollo apanado', price: 4500 }, { name: 'Carne molida', price: 4500 }, { name: 'Pollo picado', price: 4500 }, { name: 'Atún', price: 5500 }, { name: 'Lomo de cerdo', price: 6000 }, { name: 'Carne picada', price: 6000 }, { name: 'Chorizo', price: 6000 }, { name: 'Carne burger larga', price: 7000 }, { name: 'Camarones', price: 8500 }, { name: 'Cereza', price: 400 }, { name: 'Maicitos', price: 2000 }, { name: 'Porción de papas a la francesa', price: 3500 }, { name: 'Huevos de codorniz', price: 1500 }]
 },
@@ -1173,3 +1173,4 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(() => alert("No se pudo copiar"));
   });
 });
+
